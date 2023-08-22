@@ -44,7 +44,7 @@ class Employee_Add
                 "Email Information :"+emp.email+"\n"+"Employee position :"+emp.position+"\n"+
                 "Employee Salary   :"+emp.employ_salary);
                 myWriter.close();
-                System.out.println("\nEmployee has been Added :)\n");
+                System.out.println("\nEmployee has been Added to our system:)\n"); 
 
                 System.out.print("\nPress Enter to Continue...");
                 sc.nextLine();
@@ -195,8 +195,8 @@ class EmployManagementSystem
         case 1:
         {
         /** Creating class's object and calling Function using that object **/
-        Employee_Add ep =new Employee_Add();
-        ep.createFile();
+        /**Employee_Add ep =new Employee_Add();
+        ep.createFile(); **/
 
         System.out.print("\033[H\033[2J");
         obj1.menu();
